@@ -58,28 +58,5 @@ of the html element. All others should be descendants of either the head or body
           within the element is for the owner of the website rather than the author of the article.-->
         </address>
       </footer>
-
-      <script type="text/javascript">
-      var array = ["321", "12345", "9"];
-
-        function addZeros(string) {
-          while(string.length < 5) {
-            string = "0" + string;
-          }
-          return string;
-        }
-
-        function zipCode(arr) {
-          var newArray = [];
-          for (var i = 0; i < arr.length; i++) {
-            newArray.push(addZeros(arr[i]));
-          }
-          return newArray;
-        }
-
-        var zipArray = zipCode(array);
-        console.log(zipArray);
-
-      </script>
     </body>
 </html>
